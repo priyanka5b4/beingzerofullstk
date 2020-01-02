@@ -15,7 +15,7 @@ count=0;
      this.data.getData().subscribe(d => {
   this.users['arr']=d;
  
-  this.count=this.users.arr.length;
+  this.count=this.users['arr'].length;
   
   });
 
